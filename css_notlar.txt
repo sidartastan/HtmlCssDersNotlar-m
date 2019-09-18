@@ -1,0 +1,56 @@
+CSS ÝLE ÝLGÝLÝ NOTLAR
+<div style=” font:bold 34px tahoma”>		//önce kalýnlýk incelik, sonra yazý boyutu, sonra yazý tipi olmalý. Yer deðiþikliði olduðunda çalýþmýyor. Sýrasý önemli.
+<div style=”margin:50px” 		//tek bir tane deðer yazýlýnca dört tarafý da ayný px ayarlýyor.
+<div style=”margin:50px 0 0 30px” 	//1.deðer üstteki boþluk, 2. deðer dað taraftaki boþluk, 3. sayý alt taraftaki boþluk. 4. ise sol taraftaki boþluk. Saat yönünde.
+<div style=”margin:50px auto”		//50px üst vealttan boþluk, auto ise sol ve saðý otomatik ayarlýyor. Tam ortalýyor.
+//div etiketi içerisinde style parametresiyle ilgili yapýlan iþlemler.
+<div style="width:300px; height:170px ; background:#ff3456; border:5px solid #dd45cd; color: #dddddd;
+font:bold 20px tahoma; text-align:center; margin:50px auto; padding:130px 0 0 0">
+
+//gölgelendirme:birinci deðer sað taraf, 2.deðer alt taraf, 3 deðer gölge yoðunluðu, 4.deðer ise renk deðeri(#xxxxxx). Deðerleri eksi olarak belirtirsek alt tarafa üst tarafa, sað taraf da sol tarafa geçer.
+box-shadow:10px 5px 4px #111
+
+//her tarafýndan gölge istersek 
+box-shadow:10px 5px 4px #111, -10px -5px 4px #111
+
+//div içerisinde, köþeleri yuvarlatmak için, sol üst köþeden baþlýyor, saat yönünde ilerliyor.
+border-radius:10px 20px 30px 40px 
+
+//div içerisinde, kutuyu döndürmek için, 45degree
+transform:rotate(45deg)
+
+//Visual Studio’daki tüm kod görüntüsü
+<html>
+<head>
+<title>CSS çalýþmam</title>
+</head>
+<body bgcolor="#33aaff">
+<div style="width:300px; height:300px ; background:#900; color:#ffffff; font: bold 20px tahoma; margin:40px auto 0 auto; padding:130px 0 0 0; box-shadow:10px 5px 4px #111, -10px -5px 4px #111;
+border-radius:10px 20px 30px 40px; transform:rotate(20deg) ">
+    SÝDAR
+</div>
+</body>
+</html>
+
+Div içerisindeki position:static özelliði, kutu normalde sol üst köþeye kendini konumlandýrýr, fakat static özelliðiveriliyse kendinden öncekine gör kendini konumlandýrýr. Position ayarlý deðilse otomatik olarak static ayarlýdýr, deðiþtirilmediði sürece yazýlsa da yazýlmasa da static olarak set edilmiþtir.
+Position:relative //her zaman kendinden öncekine göre konumlandýrýr.
+Position:relative; top: 50px 	//bir önceki elemana göre 50px üstte boþluk ver.
+Position:relative; left: 50px 	//bir önceki elemana göre ya da sayfanýn soluna göre kendini konumlandýrýr.
+Position:absolute   //hareket ettirilebilen kutucuk, fakat kullanýmý kolay görünse de her sayfa da farklý ekran görüntüsüne sebep olacaðý için tavsiye edilmiyor.
+Position:fixed 	//sabit yerde durur, websayfasýný aþaðýya indirilse dahi kutucuk sabit bulunduðu yerde durur.
+//div içerisinde sola ve saða dayalý konumlandýrma
+float:left	//soldan saða doðu dizilirler.
+float:right	//saðdan sola doðru dizilirler. Yanyana gelecek bütün kutucuklara float tanýmý yapýlmasý gerekiyor.
+clear: both	//Float kullanýlan kutulardan sonra gelecek kutular olumsuz etkilenir. Bunun için clear:both kullanýlýr.
+GÖLGELENDÝRME
+Box-shadow:15px 10px 5px #000		//15px sað taraftakigölge,10px alttaki gölge, 5px gölgenin boyutu, #000 ise gölgenin rengi.
+ Box-shadow:-15px -10px 5px #000		//sol taraf ve üst tarafa gölge göndermek için.
+Box-shadow:15px 10px 5px #000, -15px -10px 5px #000		//her yöne gölgelendirmek için.
+BORDER-RADIUS
+Border-radius:10px 20px 30px 40px		//dört haneli kullanýlabiliyor. Sadece bir deðer verilirse tüm köþeler etkilenir.
+
+ROTATE
+
+
+
+

@@ -1,0 +1,32 @@
+<html>
+<head>			//baþlýk
+<title>Bidar Sultanýn Yemekleri</title>		//iki head arasýna yazýlýr, sayfa içinde deðil üzerindeki yazýdýr.
+</head>
+<body>						//sayfa içindeki bütün yazýlar burada yazýlýr.
+
+<a href="#tþrt">Tiþört</a><br/>	//sayfa içinde link oluþturma.
+<a href="#þrt">Þort</a><br/>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<a name="tþrt"><b>TÝÞÖRT</b><br/>Kýsa kollu modelleri çoðunluktadýr. Tek renk, baskýlý ve ortam ýþýðýna göre renk ve baský resmi deðiþen modelleri vardýr. Yazýn kullanýldýðý için ince, hafif bir kumaþtan yapýlýr. Tiþört, ismini T harfinden almýþtýr (T-Shirt).</a><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<a name="þrt"><b>ÞORT</b><br/>Þort, genellikle bazý sporlarý yaparken giyilen, paçalarý dizlerin yukarýsýnda olan kýsa pantolon. Þort sözcüðü, Ýngilizce short sözcüðünün okunuþu olarak Türkçeye girmiþtir. Vikipedi
+</a>
+<a href="uygulama1.html" target="_blank">Uygulama1</a><br/>		//href linke gidecek sayfa adý, target ise yeni sekme açýlmak isteniyorsa yazýlýr.
+<a href="http://planogy.com" target="_blank">Planogy</a>
+<img src="images/ananas.jpg" width="117" height="126" title="ananas" alt="Ananas>		//alt parametresinin ekranayansýyan bir etkisi yok. Arama motorlarýna ananas kelimesini tanýtýyoruz bu þekilde aramalarda çýkýyor görseller. Title da ananasýn üzerine gelince fare üzerinde yazý çýkmasýný saðlýyor. 
+<br/>
+<font color="blue" size="7">		//1-7 arasýnda size degeri verilebiliyor.
+Dünyanýn en tatlý insaný Sidar<br>		//normal yazý ekrana çýkar. <br> break ()alt paragrafa geçirir.
+seni çok seviyorum
+<br>
+<b>BÝLÝÞÝM</b>				//b bold kalýn harf yazýmý için.
+<br/>						//<br/> etiketi alt satýra geçirir.
+<strong>SÝDAR</strong>			//kalýn harf yazýmý için.
+</body>					//kapatmalar “bir slash(/)” ile yapýlýr
+
+
+</html>

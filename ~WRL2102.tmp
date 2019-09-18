@@ -1,0 +1,13 @@
+CSS ÝLE ÝLGÝLÝ NOTLAR
+<div style=” font:bold 34px tahoma”>		//önce kalýnlýk incelik, sonra yazý boyutu, sonra yazý tipi olmalý. Yer deðiþikliði olduðunda çalýþmýyor. Sýrasý önemli.
+<div style=”margin:50px” 		//tek bir tane deðer yazýlýnca dört tarafý da ayný px ayarlýyor.
+<div style=”margin:50px 0 0 30px” 	//1.deðer üstteki boþluk, 2. deðer dað taraftaki boþluk, 3. sayý alt taraftaki boþluk. 4. ise sol taraftaki boþluk. Saat yönünde.
+<div style=”margin:50px auto”		//50px üst vealttan boþluk, auto ise sol ve saðý otomatik ayarlýyor. Tam ortalýyor.
+//div etiketi içerisinde style parametresiyle ilgili yapýlan iþlemler.
+<div style="width:300px; height:170px ; background:#ff3456; border:5px solid #dd45cd; color: #dddddd;
+font:bold 20px tahoma; text-align:center; margin:50px auto; padding:130px 0 0 0">
+
+//gölgelendirme:birinci deðer sað taraf, 2.deðer alt taraf, 3 deðer gölge yoðunluðu, 4.deðer ise renk deðeri(#xxxxxx)
+box-shadow:10px 5px 4px #111
+
+
